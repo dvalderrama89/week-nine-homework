@@ -6,6 +6,9 @@ The app takes user input and gens a readme
 
 ## Screenshot
 ![2021-05-15 15_24_51-README md - week-nine-homework - Visual Studio Code](https://user-images.githubusercontent.com/1855513/118379755-bf577f80-b591-11eb-9240-16fc4ff83fd1.png)
+
+## Video example of command line
+https://drive.google.com/file/d/1WOChqY38A3Cbm2NLiJocg2sOyPt8FdlM/view
     
 ## Table of Contents
 * [Installation](#installation)
