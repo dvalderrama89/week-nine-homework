@@ -81,7 +81,62 @@ ${data.description}
     
 `;
 
-    let formattedData = projectTitle + description;
+    let tableOfContents = 
+`## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+
+`;
+
+    let installation = 
+`## Installation
+To install necessary dependencies, run the following command:
+
+\`\`\`
+${data.dependenciesCommand}
+\`\`\`
+
+`;
+
+    let usage = 
+`## Usage
+${data.repoUse}
+
+`;
+
+    let license = 
+`## License
+This project is licensed under the ${data.license} license.
+
+`;
+
+    let contributing = 
+`## Contributing
+${data.contributingInfo}
+
+`;
+
+    let tests = 
+`## Tests
+To run tests, run the following command:
+
+\`\`\`
+${data.runTestCommand}
+\`\`\`
+
+`;
+
+    let questions = 
+`## Questions
+If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.username}](https://github.com/${data.username}).
+
+`;
+
+    let formattedData = projectTitle + description + tableOfContents + installation + usage + license + contributing + tests + questions;
     return formattedData;
 }
 
