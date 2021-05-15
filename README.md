@@ -2,7 +2,7 @@
 ![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)
     
 ## Description
-the app takes user input and gens a readme
+The app takes user input and gens a readme
     
 ## Table of Contents
 * [Installation](#installation)
