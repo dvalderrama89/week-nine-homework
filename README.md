@@ -25,16 +25,6 @@ It's for homework presentation purposes only
 ## License
 This project is licensed under the Apache license.
 
-## Contributing
-It's free to contribute
-
-## Tests
-To run tests, run the following command:
-
-```
-npm test
-```
-
 ## Questions
 If you have any questions about the repo, open an issue or contact me directly at david@test.com. You can find more of my work at [reddituser7777](https://github.com/reddituser7777).
 
