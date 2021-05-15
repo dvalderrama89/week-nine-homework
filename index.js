@@ -65,10 +65,13 @@ inquirer
   });
 
 function formatData(data) {
+
+    let licenseImgURL = `https://img.shields.io/badge/license-${data.license}-blue.svg`;
+
     let projectTitle = 
 
 `# ${data.projectName}
-![Github license](${data.license})
+![GitHub license](${licenseImgURL})
     
 `;
 

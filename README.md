@@ -1,5 +1,5 @@
 # week 9 hw
-![Github license](MIT)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
     
 ## Description
 short descr
